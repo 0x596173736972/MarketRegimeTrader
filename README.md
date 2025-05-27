@@ -13,15 +13,6 @@ This application combines advanced statistical modeling with automated strategy 
 - **Walk-Forward Analysis**: Robust out-of-sample testing with rolling windows
 - **Topological Data Analysis**: Advanced market structure analysis using TDA
 
-## 🚀 Latest Updates & Fixes
-
-### ✅ Recent Fixes
-- **Dataset Reset**: Fixed dataset change not resetting all dependent state variables
-- **Strategy Cleanup**: Removed problematic strategies that caused timestamp comparison errors
-- **TDA Integration**: Fixed duplicate TDA components and analysis errors
-- **State Management**: Complete application state reset when changing datasets
-- **Connection Stability**: Improved Streamlit configuration for better connection handling
-
 ### 🔧 Current Working Features
 - ✅ HMM Model Training with 2-4 regimes
 - ✅ Multiple Technical Indicators (9 features available)
@@ -311,18 +302,8 @@ Your dataset should include:
 - Reduce max iterations for faster training
 - Use smaller walk-forward windows for quick testing
 
-## 🔄 Version History
-
-**Latest Version Features:**
-- ✅ Fixed dataset reset issues
-- ✅ Improved TDA integration
-- ✅ Enhanced state management
-- ✅ Streamlined strategy factory
-- ✅ Better error handling
-- ✅ Connection stability improvements
-
 ---
 
-**Built with Python, Streamlit, and advanced AI/ML for comprehensive quantitative finance analysis on Replit.**
+**Built with Python, Streamlit, and advanced AI/ML for comprehensive quantitative finance analysis.**
 
 **🚀 Ready to start?** Click "🎲 Use Sample Data" to explore with synthetic market data, or upload your own OHLCV dataset to begin your analysis!
